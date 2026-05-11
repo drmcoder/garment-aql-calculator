@@ -1,0 +1,41 @@
+{
+  "name": "garment-aql-calculator",
+  "version": "1.0.0",
+  "description": "AQL (Acceptable Quality Limit) sampling calculator for garment industry QC. Implements ISO 2859-1 sample size code letters and accept/reject tables. Returns sample size and decision rules for critical, major, and minor defect classifications. Built and used in production by Scan ERP.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "aql",
+    "acceptable-quality-limit",
+    "iso-2859",
+    "garment-qc",
+    "quality-control",
+    "sampling",
+    "inspection",
+    "garment-industry",
+    "apparel",
+    "manufacturing",
+    "cmt-factory",
+    "defect-classification",
+    "scan-erp"
+  ],
+  "homepage": "https://scanerp.pro/blog/fabric-inspection-4-point-system-guide.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drmcoder/garment-aql-calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drmcoder/garment-aql-calculator/issues"
+  },
+  "author": {
+    "name": "Santosh Rijal",
+    "url": "https://scanerp.pro"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  }
+}

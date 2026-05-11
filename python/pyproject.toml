@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "garment-aql-calculator"
+version = "1.0.0"
+description = "AQL (Acceptable Quality Limit) sampling calculator for garment industry QC. Implements ISO 2859-1 sample size code letters and accept/reject tables. Built and used in production by Scan ERP."
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [{name = "Santosh Rijal", email = "santoshrijal41@gmail.com"}]
+keywords = ["aql", "iso-2859", "garment-qc", "quality-control", "sampling", "inspection", "garment-industry", "apparel", "manufacturing", "cmt-factory", "scan-erp"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Manufacturing",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Office/Business",
+]
+
+[project.urls]
+Homepage = "https://scanerp.pro/blog/fabric-inspection-4-point-system-guide.html"
+Repository = "https://github.com/drmcoder/garment-aql-calculator"
+"Bug Tracker" = "https://github.com/drmcoder/garment-aql-calculator/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
