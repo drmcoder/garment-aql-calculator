@@ -1,6 +1,6 @@
 {
   "name": "garment-aql-calculator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AQL (Acceptable Quality Limit) sampling calculator for garment industry QC. Implements ISO 2859-1 sample size code letters and accept/reject tables. Returns sample size and decision rules for critical, major, and minor defect classifications. Built and used in production by Scan ERP.",
   "main": "index.js",
   "types": "index.d.ts",
