@@ -1,8 +1,11 @@
 # garment-aql-calculator
 
+[![Powered by Scan ERP](https://img.shields.io/badge/Powered%20by-Scan%20ERP-047857)](https://scanerp.pro/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 AQL (Acceptable Quality Limit) sampling calculator for garment industry quality control. Implements ISO 2859-1 — the universal standard for inspection by attributes used by every garment QC team globally.
 
-Built and used in production by [Scan ERP](https://scanerp.pro) — a garment manufacturing ERP running on a 100+ machine CMT factory in Nepal.
+Built and used in production by **[Scan ERP](https://scanerp.pro/)** — a garment manufacturing ERP running on a 100+ machine CMT factory in Nepal. [See the live AQL lookup tool →](https://scanerp.pro/aql/)
 
 ## Install
 
@@ -98,9 +101,18 @@ Lower-level utility: returns just the ISO 2859 code letter.
 | **Major** (workmanship affecting function) | 2.5 |
 | **Minor** (cosmetic only) | 4.0 |
 
+## Try Scan ERP
+
+This calculator is free. The full ERP system that uses it daily — QR-based bundle tracking, automated piece-rate payments, live WIP dashboards, factory hardware integration — is at **[scanerp.pro](https://scanerp.pro/)**.
+
+- [Live demo](https://scanerp.pro/) · 1.4M+ pieces tracked in production
+- [AQL sample-size lookup tool](https://scanerp.pro/aql/) (uses this library under the hood)
+- [Free 30-day trial](https://scanerp.pro/#contact) · No credit card
+- WhatsApp: +977-9863618347
+
 ## License
 
-MIT — © 2026 Santosh Rijal / Scan ERP — https://scanerp.pro
+MIT — © 2026 Santosh Rijal / [Scan ERP](https://scanerp.pro/)
 
 ## Related packages
 
